@@ -1,6 +1,5 @@
 .header {
-  width: 1500px;
-  height: 100px;
+  height: 300px;
 }
 .header__logo {
   font-size: 30px;
@@ -11,7 +10,6 @@
 .header__item {
   display: inline;
   color: rgb(89, 4, 168);
-  
 }
 nav ul {
   display: flex;
@@ -22,10 +20,8 @@ nav li {
   margin-right: 25px;
 }
 main{
-  width: 1500px;
-  height: 600px;
-  border: white solid 3px;
   position: relative;
+  background-color: blueviolet;
 }
 .ttl {
   font-size: 60px;
@@ -37,10 +33,10 @@ main{
   height: 170px;
   background-color: rgb(89, 4, 168);
 }
-img {
-  width: 850px;
-  height: 500px;
+.img {
+  width: 100%;
+  background-size: 400px;
   position: absolute;
-  top: 0;
-  left: 650px;
+  top: 50px;
+  left: 850px;
 }
