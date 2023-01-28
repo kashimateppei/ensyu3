@@ -10,7 +10,7 @@
 }
 .header__item {
   display: flex;
-  margin-top: 0;
+  margin-top: 10px;
   color: rgb(89, 4, 168);
 }
 nav ul {
@@ -28,21 +28,23 @@ main{
   font-size: 60px;
   font-weight: lighter;
   position: absolute;
-  top: 450px;
+  top: 340px;
 }
 .box {
   width: 70%;
-  height: 170px;
+  height: 160px;
   background-color: rgb(89, 4, 168);
   position: absolute;
-  top: 530px;
-  z-index: 5;
+  top: 400px;
 }
 .img img {
-  width: 60%;
-  z-index: 10;
+  width: 50%;
 }
 .img {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
   margin-top: 40px;
   text-align: right;
 }
