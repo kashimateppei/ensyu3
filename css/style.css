@@ -28,14 +28,15 @@ nav li {
   font-size: 60px;
   font-weight: lighter;
   position: absolute;
-  top: 290px;
+  bottom: 100px;
 }
 .box {
-  width: 70%;
+  width: 75%;
   height: 160px;
   background-color: rgb(89, 4, 168);
   position: absolute;
-  top: 350px;
+  bottom:-70px;
+  z-index: -1;
 }
 .img img {
   width: 50%;
