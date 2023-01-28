@@ -1,21 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
 .header__logo {
   font-size: 30px;
   color: rgb(89, 4, 168);
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 10px;
 }
 .header__item {
-  display: inline;
+  display: flex;
   margin-top: 0;
   color: rgb(89, 4, 168);
 }
 nav ul {
-  display: flex;
   font-weight: bold;
-  justify-content: flex-end;
 }
 nav li {
-  margin-right: 25px;
+  margin-right: 30px;
+  display: inline-block;
+  margin-top: 10px;
 }
 main{
   position: relative;
@@ -24,18 +28,21 @@ main{
   font-size: 60px;
   font-weight: lighter;
   position: absolute;
-  top: 300px;
+  top: 450px;
 }
 .box {
-  width: 950px;
+  width: 70%;
   height: 170px;
   background-color: rgb(89, 4, 168);
   position: absolute;
-  top: 360px;
+  top: 530px;
+  z-index: 5;
 }
 .img img {
-  position: absolute;
-  width: 50%;
-  top: 10px;
-  right: 0;
-  }
+  width: 60%;
+  z-index: 10;
+}
+.img {
+  margin-top: 40px;
+  text-align: right;
+}
